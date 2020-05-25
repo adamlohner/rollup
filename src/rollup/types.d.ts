@@ -528,6 +528,7 @@ export interface OutputOptions {
 	sourcemapFile?: string;
 	sourcemapPathTransform?: (sourcePath: string) => string;
 	strict?: boolean;
+	systemNullSetters?: boolean;
 }
 
 export type WarningHandlerWithDefault = (

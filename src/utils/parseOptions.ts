@@ -172,7 +172,8 @@ export function parseOutputOptions(
 		sourcemapExcludeSources: getOption('sourcemapExcludeSources'),
 		sourcemapFile: getOption('sourcemapFile'),
 		sourcemapPathTransform: getOption('sourcemapPathTransform'),
-		strict: getOption('strict', true)
+		strict: getOption('strict', true),
+		systemNullSetters: getOption('systemNullSetters', false)
 	};
 
 	warnUnknownOptions(config, Object.keys(outputOptions), 'output options', warn);
