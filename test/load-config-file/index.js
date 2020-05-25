@@ -28,7 +28,8 @@ describe('loadConfigFile', () => {
 						interop: true,
 						namespaceToStringTag: false,
 						plugins: [],
-						strict: true
+						strict: true,
+						systemNullSetters: false
 					}
 				],
 				perf: false,
